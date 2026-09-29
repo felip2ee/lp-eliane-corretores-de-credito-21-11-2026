@@ -71,6 +71,38 @@ const CorretorDinheiroLP = () => {
             </div>
           </div>
         </section>
+
+        {/* Authority Section */}
+        <section className="py-20 border-t border-accent/10">
+          <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div className="relative flex justify-center order-2 md:order-1">
+              <div className="relative w-full max-w-md aspect-[4/5] bg-secondary rounded-2xl border-2 border-accent/30 flex items-center justify-center text-accent font-display italic overflow-hidden shadow-2xl">
+                [IMAGEM: Eliane Leadership]
+              </div>
+              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/10 rounded-full blur-3xl"></div>
+              <div className="absolute -top-6 -left-6 w-32 h-32 bg-accent/10 rounded-full blur-3xl"></div>
+            </div>
+
+            <div className="text-left order-1 md:order-2">
+              <h2 className="font-display text-3xl md:text-5xl font-bold text-white mb-6 leading-tight">
+                Quem vai te guiar nesse caminho.
+              </h2>
+              <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+                <p>
+                  <span className="text-white font-bold">Eliane Moreira</span> é especialista no mercado financeiro com mais de 16 anos de experiência.
+                  Ela não apenas estuda o sistema, ela opera dentro dele.
+                </p>
+                <p>
+                  Ao longo de sua trajetória, Eliane participou da estruturação de mais de <span className="text-accent font-bold">R$ 400 milhões</span> em operações de crédito aprovadas.
+                  Sua expertise transformou a realidade de centenas de empresários que, como você, estavam cansados de ouvir "não" dos bancos.
+                </p>
+                <p>
+                  Hoje, ela abre a Caixa Preta para ensinar a engenharia financeira necessária para que você pare de pedir crédito e passe a pular as etapas burocráticas, acessando os recursos que o seu negócio realmente precisa.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );
