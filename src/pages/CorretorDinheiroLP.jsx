@@ -43,6 +43,34 @@ const CorretorDinheiroLP = () => {
 
       <main className="container mx-auto px-6 pb-24">
         <ComparisonTable />
+
+        {/* Revelation Section */}
+        <section className="py-20 border-t border-accent/10 mt-20">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="font-display text-3xl md:text-5xl font-bold text-white mb-8 leading-tight">
+              O que os bancos escondem de você está dentro da <span className="text-accent">Caixa Preta</span>
+            </h2>
+            <p className="text-lg md:text-xl text-gray-300 mb-12 leading-relaxed">
+              Existe um código invisível que separa quem implora por crédito de quem domina a mesa.
+              Não é sobre score, não é sobre garantias e não é sobre ter um "contato" no banco.
+              <br /><br />
+              É sobre entender a engenharia por trás da aprovação.
+            </p>
+
+            <div className="relative w-full max-w-2xl mx-auto aspect-video bg-dark border-2 border-accent/20 rounded-xl flex items-center justify-center text-accent font-display italic shadow-2xl mb-12">
+              [IMAGEM: Convite VIP]
+            </div>
+
+            <div className="bg-primary/30 p-8 rounded-2xl border border-accent/30 inline-block">
+              <p className="font-display text-xl md:text-2xl font-bold text-white">
+                📅 Marque na agenda: 21 de Novembro
+              </p>
+              <p className="text-gray-300 mt-2">
+                O dia em que a Caixa Preta será aberta.
+              </p>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );
