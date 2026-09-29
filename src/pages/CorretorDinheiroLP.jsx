@@ -1,5 +1,6 @@
 import React from 'react';
 import ComparisonTable from '../components/lp/ComparisonTable';
+import PriceCard from '../components/lp/PriceCard';
 
 const CorretorDinheiroLP = () => {
   return (
@@ -11,6 +12,11 @@ const CorretorDinheiroLP = () => {
 
       {/* Hero Section */}
       <section className="relative pt-20 pb-12 md:pt-32 md:pb-24 px-6 overflow-hidden">
+        {/* Black Friday Hook */}
+        <div className="container mx-auto mb-8 flex items-center justify-center gap-3 text-accent font-display text-sm md:text-base font-bold uppercase tracking-widest animate-pulse">
+          <span>[ÍCONE: Cronômetro]</span>
+          <span>Pare de comprar coisas. Invista em habilidades.</span>
+        </div>
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="text-left z-10">
             <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6">
@@ -104,6 +110,13 @@ const CorretorDinheiroLP = () => {
           </div>
         </section>
       </main>
+
+      {/* Pricing Section */}
+      <section id="checkout" className="py-24 bg-dark/50 border-t border-accent/10">
+        <div className="container mx-auto px-6 text-center">
+          <PriceCard />
+        </div>
+      </section>
     </div>
   );
 };
