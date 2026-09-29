@@ -26,7 +26,7 @@ const CorretorDinheiroLP = () => {
           </p>
         </section>
       </main>
-    </div>
+    </div>>
   );
 };
 
